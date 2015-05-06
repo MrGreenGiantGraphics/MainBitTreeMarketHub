@@ -1,0 +1,138 @@
+﻿@model BitTreeMarketMain.Model.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Corportation.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Corportation.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentOption.PaymentType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentOption.PaymentType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating.Review)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating.Review)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesReward.SalesRewardId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesReward.SalesRewardId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SmallBusiness.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SmallBusiness.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Details)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Details)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GMO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GMO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageLink)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageLink)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SelectedQuantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SelectedQuantity)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

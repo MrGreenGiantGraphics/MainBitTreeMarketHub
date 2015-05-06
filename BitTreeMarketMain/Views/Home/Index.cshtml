@@ -1,0 +1,1100 @@
+﻿<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">BitTree Market</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">Mission</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Products</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">Branches</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#team">Team</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/account/register">Register</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/account/login">LogIn</a>
+                </li>
+
+                @*using Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                     {
+                     @Html.AntiForgeryToken()
+
+                     <ul class="nav navbar-nav navbar-right">
+                         <li>
+                             @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                         </li>
+                         <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                    }*@
+
+                <li class="dropdown">
+                    <a href="~/Controllers/CategoriesController.cs" class="dropdown-toggle" data-toggle="dropdown">DropDown<strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a herf="#">Coming soon</a>
+                        </li>
+                        <li>
+                            <a herf="#">Coming soon</a>
+                        </li>
+                        <li>
+                            <a herf="#">Coming soon</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+
+
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">We promote non-GMO products</div>
+            <div class="intro-heading">BitTree Market Welcomes you!</div>
+            <a href="#services" class="page-scroll btn btn-xl">Wanna earn Bitcoins?</a>
+        </div>
+    </div>
+</header>
+<!-- Services Section -->
+<section id="services">
+    <div class="containertwo">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+
+
+                <h2 class="section-heading">Our Mission</h2>
+                <h3 class="section-subheading text-muted">People who make a difference</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <img class="img-circle img-responsive" img src="Images/ECO_Friendly.jpg" alt="">
+                </span>
+                <h4 class="service-heading">Eco Friendly Products</h4>
+                <p class="text-muted">
+                    These Eco Friendly Products are healthy, green, and good for people, animals and the environment,
+                    and that allow you to leave the smallest possible footprint on the planet.
+                    When you’re ready to buy green, visit here!
+                    We're committed to showing you the best possible products and services that will meet your conscious consumerism goals.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <img class="img-circle img-responsive" img src="Images/ECO_Friendly.jpg" alt="">
+                </span>
+                <h4 class="service-heading">Safe for the Environment</h4>
+                <p class="text-muted">
+                    Environmental protection is a practice of protecting the natural environment on individual,
+                    organizational or governmental levels, for the benefit of both the natural environment and humans.
+                    Due to the pressures of population and technology, the biophysical environment is being degraded, sometimes permanently.
+                    This has been recognized, and governments have begun placing restraints on activities that cause environmental degradation.
+                    Since the 1960s, activity of environmental movements has created awareness of the various environmental issues.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <img class="img-circle img-responsive" img src="Images/ECO_Friendly.jpg" alt="">
+                </span>
+                <h4 class="service-heading">Changing the way you shop</h4>
+                <p class="text-muted">
+                    Our goal is to help you be more confident in what you buy, only giving you item that are proven to be Eco Friendly,
+                    good for your body, and most importantly, SAFE for the environment. You find peace of my and a good feeling in your soul
+                    when you buy one of the product on BitTree, you money goes right back into these products, and further adding to the movement of Eco-Safe
+                    product distribution. Plus you get a really good feeling in your heart.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Featured Products</h2>
+                <h3 class="section-subheading text-muted">Here are some of our best and favorite products</h3>
+            </div>
+        </div>
+        <div class="row">   
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+
+                    <img src="Images/ImmunityDefenseProduct.jpg" class="img-responsive" alt="">
+                </a>
+                     <div class="portfolio-caption">
+                         <h4>Immunity Defense</h4>
+                            <p class="text-muted">Vitamins</p>
+                    </div>
+              </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+
+                    <img src="Images/OrganicCottonBabyCarrier2.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Organic Cotton Baby Carrier</h4>
+                    <p class="text-muted">Baby Products</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="Images/ShampooBodyWash.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Shampoo & Body Wash</h4>
+                    <p class="text-muted">Bath Products</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="Images/LaundryDetergent2.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Laundry Detergent</h4>
+                    <p class="text-muted">Home Products</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="Images/CottonBlacket.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Cotton Blanket</h4>
+                    <p class="text-muted">Clothing Products</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="Images/OrganicSwaddle.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Organic Swaddle 3 pack</h4>
+                    <p class="text-muted">Baby Products</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+
+                    <img src="Images/Silicone3.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Silicone 5oz Bottles</h4>
+                    <p class="text-muted">Food Products</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+
+
+                    <img src="Images/SprayCleanerRefills2.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Spray Cleaner Bottle Refills</h4>
+                    <p class="text-muted">Home Products</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="Images/Prenatal2.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Prenatal One-a-Day</h4>
+                    <p class="text-muted">Vitamins</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="Images/BabyPowder2.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Organic Baby Powder</h4>
+                    <p class="text-muted">Baby Products</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="Images/HealthyChild.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Healthy Child Healthy World</h4>
+                    <p class="text-muted">Home Products</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+
+                    <img src="Images/RadiationBlanket.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Radiation Blanket</h4>
+                    <p class="text-muted">Baby Products</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Branches</h2>
+                <h3 class="section-subheading text-muted">Choose how you can make a difference</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" img src="Images/AboutImg.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Buyers</h4>
+                                <h4 class="subheading">A place to shop with peace of mind</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">As a buyer on BitTree, you can have confidence knowing that the products you buy from us are the safest for you and your family. Your supporting amazing product lines and helping to do your own little part in protecting the environment. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="Images/AboutImg.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Sellers</h4>
+                                <h4 class="subheading">Sell products..earn BitCoins</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">As a seller with BitTree, you can help promote some of the best Eco Friendly product provided by our manufacturers, meanwhile, earning commisions of on your efforts, and knowing that your making a difference.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="Images/AboutImg.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Manufacturers</h4>
+                                <h4 class="subheading">Spread the word about your products</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">As a vendor/manufacturer you can sell your products with us, and allow our sellers to sell you products on other sites as well. Having multiple avenues of revenue streams increase you profit and lower your bottom line. Its a win-win</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="Images/AboutImg.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Earning Commissions</h4>
+                                <h4 class="subheading">BitCoins and Products</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">At BitTree, you have the ability to work with our vendor and many others to sell products and earn commisions. Our commissions are paid in bitcoins, which mean, your work and commission has the ability to grow long after you sell a product for us.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br>Of Our
+                                <br>Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted">To be the best, surround yourself with the best</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="Images/PicOfDavid.jpg" class="img-responsive img-circle" alt="">
+                    <h4>David Green</h4>
+                    <p class="text-muted">Back End/Databases</p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/profile/view?id=282012842&authType=NAME_SEARCH&authToken=AGKG&locale=en_US&srchid=282204441428944755408&srchindex=1&srchtotal=3732&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A282204441428944755408%2CVSRPtargetId%3A282012842%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="Images/PicOfStephen.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Stephen Faust</h4>
+                    <p class="text-muted">UI/UX Developer</p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/profile/view?id=88379822&authType=NAME_SEARCH&authToken=o1jJ&locale=en_US&srchid=282204441428941609670&srchindex=1&srchtotal=74&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A282204441428941609670%2CVSRPtargetId%3A88379822%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="Images/PicOfAdam.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Adam Smith</h4>
+                    <p class="text-muted">Back End/Databases</p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/adomsmithy?fref=ts"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/profile/view?id=334420967&authType=NAME_SEARCH&authToken=JfMi&locale=en_US&srchid=282204441428944889229&srchindex=1&srchtotal=4479&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A282204441428944889229%2CVSRPtargetId%3A334420967%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="Images/PicOfJosh2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Joshua Dever</h4>
+                        <p class="text-muted">UI/UX Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="https://twitter.com/exinsula"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/joshua.dever.12"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/profile/view?id=289429838&authType=NAME_SEARCH&authToken=xhq7&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2Cidx%3A1-1-1%2CtarId%3A1427564079811%2Ctas%3Ajosh"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="Images/PicOfTyler.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Jacob Shaw</h4>
+                        <p class="text-muted">Back End/Databases </p>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="https://twitter.com/search?q=tshazzy90&src=typd"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/tyler.shaw.1029?fref=tl_fr_box&pnref=lhc.friends"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/profile/view?id=388694504&authType=NAME_SEARCH&authToken=Aa8I&locale=en_US&srchid=282204441428945258521&srchindex=1&srchtotal=122&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A282204441428945258521%2CVSRPtargetId%3A388694504%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="Images/PicOfAj2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>A.j. Calhoun</h4>
+                        <p class="text-muted">UI/UX Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="https://twitter.com/AJinDallas"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/AJinDallas"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com/pub/allen-calhoun-jr/9/54b/338/en"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Behind every great company is a great team, Without the hard work and late hours put in by this team, BitTree Market would not be possible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Clients Aside -->
+<aside class="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Contact Us</h2>
+                <h3 class="section-subheading text-muted">Tell us about yourself</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-xl">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; BitTree Market 2015</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms of Use</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Immunity Defense</h2>
+                        <p class="item-intro text-muted">Vitamins</p>
+                        <img class="img-responsive img-centered" img src="Images/ImunityDefenseProduct2.jpg" alt="">
+                        <p>Let’s face it – no one wants to feel "under the weather." Our ultra pure Immunity Defense formulation is made from concentrated and natural botanical extracts. The unique blend features Arabinogalactan, Black Elderberry, Self Heal Herb, and more – ingredients that help maintain and support healthy immune system function.</p>
+                        <p>
+                            <strong>Active Ingredients. Made with naturally-derived botanical ingredients which may help support healthy immune system function.</strong>For more information about this product, check out <a href="https://www.honest.com/health-and-wellness/immunity-defense">TheHonestCompany.com</a>
+                        </p>
+                        <ul class="list-inline">
+                            <li>Date: April 2015</li>
+                            <li>Client: The Honest Company</li>
+                            <li>Category: Health</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Organic Cotton Baby Carrier</h2>
+                        <p class="item-intro text-muted">Baby Products</p>
+                        <img class="img-responsive img-centered" img src="Images/OrganicCottonBabyCarrier2.jpg" alt="">
+                        <p>
+                            Every parent is on the go (especially to show off that beautiful baby), so you’ll love our new baby carriers — ultra versatile, comfortable, lightweight, and super easy to use.
+                            Created from GOTS Certified Organic Cotton and Repreve®, a unique fiber made from recycled bottles, our baby carriers are crafted with sustainability top of mind.An award-winning, safety-tested, and patented design gives you the flexibility to wear your baby in 4 carrying positions:
+                            front – inward facing
+                            front –  outward facing
+                            back & on the hips
+                            Fully adjustable waist, shoulder, and chest straps ensure even weight distribution. Newly added 3-point safety buckles prevent accidental opening.
+                            Tested to ensure proper ergonomic positioning for you (even during nursing), Dads, and for baby — no matter how you wear it.
+                            Its tall and wide body with foldable headrest supports your growing baby in the proper positioning for each growth phase, and a wide padded waist belt offers extra lumbar support. <a href="https://www.honest.com/collective/organic-cotton-baby-carrier">TheHonestCompany.com</a>
+                        </p>
+
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Shampoo & Body Wash</h2>
+                        <p class="item-intro text-muted">bath Products</p>
+                        <img class="img-responsive img-centered" img src="Images/ShamppBodyWash2.jpg" alt="">
+                        <p>
+                            Natural and organic ingredients gently cleanse, moisturize, and nourish your baby and family's entire body from head to toe . Jojoba and quinoa proteins strengthen and fortify (with all 8 essential amino acids).
+                            Organic coconut oil moisturizes and protects. Chamomile, calendula, and aloe gently soothe and nourish. Fresh smelling sweet orange vanilla. Perfectly pH balanced to remove dirt without stripping natural oils, and protect tender skin and delicate hair.
+                            Gentle enough for babies with sensitive skin, eczema, or cradle cap. Safe for Mom's color-treated hair. No harsh chemicals (ever!) - honestly clean and extremely satisfying. Hypoallergenic • Tear-Free • Color-Safe • Vegan • Biodegradable • pH Balanced • Naturally Non-Toxic <a href="https://www.honest.com/bath-and-body/shampoo-body-wash">The Honest Company</a>
+                        </p>
+
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Laundry Detergent</h2>
+                        <p class="item-intro text-muted">Home products.</p>
+                        <img class="img-responsive img-centered" img src="Images/LaundryDetergent.jpg" alt="">
+                        <p>
+                            Cleans stubborn stains, dirt, food, and life's unexpected messes – all with a neutral pH (non-irritating to skin & does not discolor clothing). Exceptional stain removal, while guarding colors.
+                            Rinses thoroughly, leaving textiles softer, brighter, and truly clean. Suitable for ALL your family's laundry – all natural & synthetic washables, including cloth diapers, hand-washing wools, silks, and other fine washables.
+                            Perfect for babies & sensitive skin – without chemicals residues left behind. Naturally Non-Toxic • Hypoallergenic • Biodegradable • pH Balanced<a href="https://www.honest.com/cleaning/honest-laundry-detergent">The Honest Company</a>
+                        </p>
+
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Cotton Blanket</h2>
+                        <p class="item-intro text-muted">Clothing Products.</p>
+                        <img class="img-responsive img-centered" img src="Images/CottonBlacket.jpg" alt="">
+                        <p>
+                            Our meticulously handcrafted, organic cotton knit throw and receiving blanket is a treasure for any bundle of joy. A timeless classic to be passed on to future generations.
+                            It’s sweet, gentle, soft, and perfect for wrapping, cuddling, nursing, napping, and general comfort-making.<a href="https://www.honest.com/collective/organic-cotton-knit-blanket">The Honest Company</a>
+                        </p>
+
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Organic Swaddle 3 pack</h2>
+                        <p class="item-intro text-muted">Baby Products</p>
+                        <img class="img-responsive img-centered" img src="Images/OrganicSwaddle2.jpg" alt="">
+                        <p>
+                            Lovingly wrap your little ones in our soft, organic cotton muslin swaddles. Made with GOTS certified organic cotton and non-toxic, low-impact dyes, these organic swaddling blankets are gentle on baby’s skin and perfect for sleep time, cuddle time, nursing, travel, and play.
+                            We designed these exclusive collections to inspire every little one to imagine the endless possibilities of adventure and exploration. <a href="https://www.honest.com/collective/organic-swaddles">The Honest Company</a>
+                        </p>
+
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Model 7-->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Silicone 5oz Bottle</h2>
+                        <p class="item-intro text-muted">Food Products</p>
+                        <img class="img-responsive img-centered" img src="Images/Silicone2.jpg" alt="">
+                        <p>
+                            Innovative peristaltic nipple uses a flex accordion design to allow baby to feed in a natural, wave-like motion, mimicking breastfeeding
+                            Integrated, anti-colic tri-vent system allows for continuous feeding to reduce gas, colic, reflux, and spit-up
+                            Soft, squeezable bottle naturally simulates the tactile experience of breastfeeding and promotes hand-eye coordination
+                            Made from safe, medical-grade silicone, no open pores to harbor bacteria – NO BPA, BPS, PET, or nitrosamines
+                            NO plastic comes in contact with liquids ever!  Unique closure and bottle seal means only medical-grade silicone is in contact with milk or formula
+                            Easy grip collar made from food-grade polypropylene makes opening and closing bottle easy and convenient
+                            Easy to use and clean — soft, non-slip surface is comfortable to hold and bottle has fewer parts to clean
+                            Includes 2 “Slow Flow” peristaltic nipples for 0-3 months
+                            Replacement nipples and additional stages available
+                            Available in 3 colors: Green, Peach, and Teal
+                            Exceeds U.S. and international safety standards — FDA, LFGB, CPSIA, and EN 14350 2
+                            BPA & BPS-Free • Medical-Grade Silicone • Anti-Colic • Dishwasher & Microwave Safe • Non-Toxic
+                        </p>
+                        <p>
+                            <strong>Extra soft, squeezable bottle and anti-colic, medical-grade peristaltic nipple mimics natural breastfeeding to provide easy assimilation and transitions between breast and bottle feeding.</strong>For more information about this product, check out <a href="https://www.honest.com/feeding/natural-feeding-5oz-bottle">TheHonestCompany.com</a>
+                        </p>
+                        <ul class="list-inline">
+                            <li>Date: April 2015</li>
+                            <li>Client: The Honest Company</li>
+                            <li>Category: Food</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Model 8-->
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Spray Bottle Refills</h2>
+                        <p class="item-intro text-muted">Food Products</p>
+                        <img class="img-responsive img-centered" img src="Images/SprayCleanerRefills.jpg" alt="">
+                        <p>
+                            Know what’s even better than recycling? Reusing. Now with our Honest Concentrate Refills, you can reuse the Honest Spray Bottles you have — over & over again.
+                            Plus, by opting for a Concentrate Refill instead of a full-size Spray Cleaner, you are saving more than just plastic*:
+                            Water consumption savings - 74%
+                            Fossil Fuel consumption savings - 77%
+                            Greenhouse gas emissions savings - 75%
+                            Mineral consumption savings - 75%
+                            Packaging consumption (by weight in grams) savings - 77%
+                            So to sum it up: same great cleaner (say goodbye, dirt!), save plastic, water, fossil fuels & GHGs — delightful eco-brilliance?
+                        </p>
+                        <p>
+                            <strong>Advanced plant-based concentrates tackle dirt, grease & grime anywhere, anytime – just add water! Available for all 5 of our super versatile & ultra effective natural spray & surface cleaners.</strong>For more information about this product, check out <a href="https://www.honest.com/cleaning/spray-cleaner-concentrate-refills">TheHonestCompany.com</a>
+                        </p>
+                        <ul class="list-inline">
+                            <li>Date: April 2015</li>
+                            <li>Client: The Honest Company</li>
+                            <li>Category: Home Products</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Model 9-->
+<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Prenatal One-a-Day</h2>
+                        <p class="item-intro text-muted">Food Products</p>
+                        <img class="img-responsive img-centered" img src="Images/Prenatal.jpg" alt="">
+                        <p>
+                            Enriching Folate. Now with the highly bioavailable form of Folate, L-Methylfolate, to help with absorption.*
+                            Nutritionally Balanced. Complete multi-vitamin and mineral supplement containing nutrients like Folate and Iron, which support baby's healthy growth and development.*
+                            Nourishing for Mom. Balanced combination of vitamins and minerals to support mom's growing nutritional needs during pregnancy.*
+                            Ultra Gentle. Vitamin B6 and Ginger are included to help calm mom's tummy. The naturally derived sweet coating makes them easy to take and keep down!*
+                            Added Probiotics. 500 million beneficial (CFU) probiotics and plant sources of digestive enzymes to help support digestion, a healthy immune system, and overall intestinal health.*
+                            Powerful Antioxidants. Vitamin A (as Beta Carotene), Vitamin C and Vitamin E are included to provide powerful antioxidant protection by neutralizing free radicals in both mom and baby's growing bodies.*
+                            Doctor Reviewed & Formulated. We rely on our team of practicing doctors and health experts to ensure a balanced nutritional formulation.
+                            Purity Matters. Carefully sourced and blended to be ultra pure and HONESTLY FREE of commonly found binders, fillers, allergens, synthetic additives, pesticides, and contaminants.
+                        </p>
+                        <p>
+                            <strong>Our Prenatal Complete multi-vitamin blend has been thoughtfully formulated with highly bioavailable forms of nutrients (like L-Methylfolate, methylcobalamin, and beta carotene), and added probiotics, digestive enzymes, antioxidants, and superfoods to meet the growing needs of both mom and baby.* All in just one tablet per day! </strong>For more information about this product, check out <a href="https://www.honest.com/health-and-wellness/prenatal-complete-one-a-day">TheHonestCompany.com</a>
+                        </p>
+                        <ul class="list-inline">
+                            <li>Date: April 2015</li>
+                            <li>Client: The Honest Company</li>
+                            <li>Category: Food</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Model 10-->
+<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Organic Baby Powder</h2>
+                        <p class="item-intro text-muted">Baby Products</p>
+                        <img class="img-responsive img-centered" img src="Images/BabyPowder.jpg" alt="">
+                        <p>
+                            Certified organic formula keeps skin feeling soft, dry & comfortable
+                            Corn starch & kaolin clay absorb moisture – without the use of harmful talc
+                            Aloe vera soothes irritated, itchy skin & arrowroot powder has natural anti-bacterial properties
+                            Infused with probiotics to help keep skin balanced & healthy
+                            All Natural • Talc-Free • Hypoallergenic • Ultra Absorbent • Plant-Based • Non-Toxic • Safe • Pediatrician-Tested
+                        </p>
+                        <p>
+                            <strong>Keep your baby's bum delightfully dry — naturally, safely & super easily! Our talc-free organic powder naturally absorbs moisture & soothes & calms skin for happy, healthy bums.</strong>For more information about this product, check out <a href="https://www.honest.com/baby/organic-baby-powder">TheHonestCompany.com</a>
+                        </p>
+                        <ul class="list-inline">
+                            <li>Date: April 2015</li>
+                            <li>Client: The Honest Company</li>
+                            <li>Category: Baby Products</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Model 11-->
+<div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Healthy Child Healthy World</h2>
+                        <p class="item-intro text-muted">Home Products</p>
+                        <img class="img-responsive img-centered" img src="Images/HealthyChild.jpg" alt="">
+                        <p>
+                            Advice on preparing a nontoxic nursery for a new baby
+                            What every expectant mom needs to do to have a safer pregnancy
+                            Clarifying which plastics and baby products to avoid and the healthier solutions
+                            Tips to take to the grocery store, including the most and least pesticide-laden fruits and vegetables and the best healthy kid-approved snacks
+                            Which beauty care / cosmetic products pose the biggest risk to health
+                            The best recipes for healthy snacks, low-cost and safe homemade cleaners, and non-toxic art supplies
+                            How to easily minimize allergens, dust, and lead
+                            A greener garden, yard, and outdoor spaces
+                            Tips to keep your pets healthy, and the unwanted pests out naturally
+                            Renovation ideas, naturally fresher indoor air, and safer sleeping options
+                            A 27 page extensive shopper's guide to the most trusted and best products every home needs
+                            Inside is also packed with over 40 featured contributions from renowned doctors, environmental
+                            scientists, and public-health experts like Dr. Harvey Karp, Dr Philip Landrigan, and William McDonough, as well as many celebrity parents like Gwyneth Paltrow, Tobey Maguire, Sheryl Crow, Erin Brockovich and Tom Hanks. A special featured contribution from First Lady Michelle Obama on her best ways of coping with her daughter's asthma.
+                        </p>
+                        <p>
+                            <strong>
+                                Written by Honest Company co-Founder Christopher Gavigan, Healthy Child Healthy World is the essential guide for parents. All parents want a happy and healthy child in a safe home, but where do they start? It starts with the small steps to creating a healthier, less toxic, and more environmentally sound home and this is the definitive book to get you there.
+                                Unfortunately, tens of millions of Americans, overwhelmingly children, now face chronic disease and illnesses including cancer, autism, asthma, allergies, birth defects, ADD/ADHD, obesity/diabetes, and learning and developmental disabilities. The number gets higher each year and more parents ask WHY? Scientific evidence increasingly finds chemicals in everyday products like cleaning supplies, beauty care and cosmetics, home furnishings, plastics, food, and even toys that are contributors to these ailments.
+                                The good news is that you can something to protect your children with a few simple changes!
+                                Inside, you'll find practical, inexpensive, and easy lifestyle advice for every stage of parenting.
+                            </strong>For more information about this product, check out <a href="https://www.honest.com/cleaning/healthy-child-healthy-world">TheHonestCompany.com</a>
+                        </p>
+                        <ul class="list-inline">
+                            <li>Date: April 2015</li>
+                            <li>Client: The Honest Company</li>
+                            <li>Category: Home Products</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Model 12-->
+<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Radiation Blanket</h2>
+                        <p class="item-intro text-muted">Baby Products</p>
+                        <img class="img-responsive img-centered" img src="Images/RadiationBlanket2.jpg" alt="">
+                        <p>
+                            Peace of mind meets comfort with our organic cotton blanket designed to protect mom and baby from the risks of everyday radiation. Neutralizes and actively reduces incoming electromagnetic waves, canceling out the ambient radiation with 99.9% efficacy against cell phones, laptops, and handheld electronic devices.
+                            Our cozy blanket is made with lightweight, ultra soft 100% GOTS Certified Organic Cotton and lined with patented RadiaShield® Fabric — a lightweight, conductive textile with shielding properties (similar to ¼" thick aluminum!), which has been independently tested and laboratory verified (FCC-certified and NVLAP-accredited) to effectively shield 99.9% of everyday radiation.
+                        </p>
+                        <p>
+                            <strong>There is nothing more important in this world than the health and safety of your child. While the risks and dangers of everyday radiation remain largely unknown, health experts recommend applying the "precautionary principle" – especially during pregnancy and early childhood. We've been longtime advocates and fans of the work of Belly Armor, and couldn't wait to collaborate with them on a special project to bring their product to our Honest line.</strong>For more information about this product, check out <a href="https://www.honest.com/collective/organic-protective-radiation-blanket">TheHonestCompany.com</a>
+                        </p>
+                        <ul class="list-inline">
+                            <li>Date: April 2015</li>
+                            <li>Client: The Honest Company</li>
+                            <li>Category: Baby Products</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

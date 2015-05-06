@@ -1,0 +1,25 @@
+﻿@model BitTreeMarketMain.Models.ClothesVm
+
+<div>
+    @foreach (var c in Model.Clothes)
+    {
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+
+                    <img src="Images/@c.ImageLink" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@c.Name</h4>
+                    <p class="text-muted">CategoryGoesHere</p>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
